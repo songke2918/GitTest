@@ -16,6 +16,7 @@ import co.sk.gittest.ui.theme.GitTestTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //测试上传
         enableEdgeToEdge()
         setContent {
             GitTestTheme {
